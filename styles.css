@@ -286,6 +286,39 @@ button:hover {
         display: block;
         margin: 10px 0;
     }
+   
+    .hero {
+        position: relative;
+        height: 400px;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .hero-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #ffffff;
+        z-index: 1;
+    }
+    
+    .about {
+        margin-top: 20px; 
+    }
+    .about-card {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .about-text {
+        order: 1; 
+    }
+
+    .about-image {
+        order: 2; 
+        margin-top: 20px; 
+    }
 }
 
 /* Media queries for tablets */
